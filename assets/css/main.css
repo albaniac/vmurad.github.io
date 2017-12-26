@@ -4,7 +4,7 @@ body {
 }
 h2 {
 	font-family: 'Poiret One', cursive;
-	font-size: 3.2vw;
+	font-size: 32px;
 }
 
 .headerwrap {
@@ -14,6 +14,7 @@ h2 {
   width: 100%;
   min-height: 550px;
   background-size: cover;
+  background-position: right;
 }
 .wrapper {
 	padding-top: 70px;
@@ -48,6 +49,9 @@ h2 {
 }
 .iconwrap img {
 	max-width:15%;
+}
+.contactInput {
+	margin-top: 30px;
 }
 
  .inputarea {
@@ -174,6 +178,7 @@ footer {
 	.twocalls .btn {		
 		float: none;
 		margin-bottom: 10px;
-		width: 100%;
+		width: 100%;	
 	}
+	s
 }

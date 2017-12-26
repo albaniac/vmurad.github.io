@@ -95,16 +95,14 @@
     <div class="wrapper darker">
       <div class="container">
         <h2>Рассчитать количество солнечных панелей</h2>
-        <div class="row">
-          
-          <p>Если уже знаете требуемую мощность, то можете её указать в полне ниже</p>
-          <form class="form-inline">
-            <div class="co-md-4">
+        <div class="row">          
+          <p>Если уже знаете требуемую мощность, то можете её указать в поле ниже</p>
+          <form class="form-inline">            
             <div class="form-group col-md-4">
               <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
               <div class="input-group">
-                <div class="input-group-addon">P</div>
-                <input type="text" class="form-control" id="exampleInputAmount" placeholder="Предполагаемый расход">
+                <div class="input-group-addon">Расход</div>
+                <input type="tel" class="form-control" id="exampleInputAmount" placeholder="Предполагаемый расход">
                 <div class="input-group-addon">кВт</div>
               </div>
             </div> 
@@ -127,13 +125,12 @@
               <label class="btn btn-default">
                 <input type="checkbox" autocomplete="off"><i class="far fa-question-circle"></i> Другое
               </label>
-            </div>
-          
+            </div>          
           </form>
           </div>
             
-        </div>
-        <div class="row">
+        
+        <div class="row contactInput">
           <div class="col-sm-4 mb-3">
             <label for="validationDefault03">Ваше имя</label>
             <input type="text" class="form-control" id="validationDefault03" placeholder="Имя" required>
@@ -143,18 +140,19 @@
           </div>
           <div class="col-sm-4 mb-3">
             <label for="validationDefault04">Ваш номер</label>
-            <input type="text" class="form-control" id="validationDefault04" placeholder="+7 987 123 45 67" required>
+            <input type="tel" class="form-control" id="validationDefault04" placeholder="+7 987 123 45 67" required>
             <div class="invalid-feedback">
               Please provide a valid state.
             </div>
           </div>
           <div class="col-sm-4 mb-3">
-            <label for="validationDefault05">Ваш город</label>
-            <input type="text" class="form-control" id="validationDefault05" placeholder="Казань" required>
+            <label for="validationDefault05">Ваш город или индекс</label>
+            <input type="text" class="form-control" id="validationDefault05" placeholder="Казань или 420000" required>
             <div class="invalid-feedback">
               Please provide a valid zip.
             </div>
           </div>
+        </div>
       </div>
     </div>
 
