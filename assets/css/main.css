@@ -54,6 +54,13 @@ h2 {
 	margin-top: 30px;
 }
 
+.applicationCheckbox label {
+	color: gray;
+}
+.applicationCheckbox .active  {
+	color: #39f;
+	border-color: #39f
+}
  .inputarea {
 	display: block;
     width: 100%;
