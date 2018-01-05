@@ -53,19 +53,26 @@ h2 {
 .contactInput {
 	margin-top: 30px;
 }
-
 .applicationCheckbox label {
-	color: gray;
+	color: #ccc;
+	font-size: 12px;
 }
-.applicationCheckbox .active,
-.aaplicatioCheckbox. .active:hover
-  {
-	color: #39f;
-	border-color: #39f
-}
-.applicationCheckbox .active: {
 
+.applicationCheckbox .active {
+	color: #39f;
+	border-color: #39f;
+	background-color:#ffffff;
+	box-shadow: none;
+	outline: none;
 }
+
+ .applicationCheckbox .focus {
+ 	outline: none;
+ }
+
+ .inputarea {
+}
+
 
  .inputarea {
 	display: block;
@@ -90,6 +97,9 @@ h2 {
 }
 .simplicity {
 	background: linear-gradient(to bottom,#d2d2d2 0%,#fff 81%);
+}
+.simplicity h5 {
+	font-weight: bold;
 }
 .centered {
 	margin-left: auto;
@@ -129,7 +139,8 @@ techspec {
 }
 .vertical-separator {
 	border-left: 1px solid rgba(204,204,204,0.5);
-	margin-left: 0.5rem;
+	padding-left: 8px;
+    margin-left: 4px;
 	
 }
 .changepill {
@@ -155,9 +166,18 @@ techspec {
 ul .nav-pills li {
 	margin: auto;
 }
-.vertical-separator a {
+
+a vertical-separator  {
 color: #666;
 }
+а
+.footer-text {
+	clear: both;
+    color: #666;
+    text-align: left;
+    margin: 0;
+}
+
 .quotation label {
 	display: block;
 	font-size: 12px;
@@ -197,5 +217,5 @@ footer {
 		margin-bottom: 10px;
 		width: 100%;	
 	}
-	s
+	
 }
