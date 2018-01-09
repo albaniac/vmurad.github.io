@@ -3,10 +3,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-	font-family: 'Poiret One', cursive;
-	font-size: 32px;
+	font-family: 'Comfortaa', cursive,'Poiret One', cursive;
+	font-size: 34px;
+	font-weight: 300;
 }
-
+h2 {
+	margin-bottom: 40px;
+}
+ 
 .headerwrap {
   padding: 40px 15px;
   text-align: center;
@@ -16,12 +20,34 @@ h2 {
   background-size: cover;
   background-position: right;
 }
+.headerwrap-dacha {
+  padding: 40px 15px;
+  text-align: center;
+  background: url("../img/solnechnye paneli dacha.jpeg");
+  width: 100%;
+  min-height: 550px;
+  background-size: cover;
+  background-position: top;
+  color: white;
+}
+
+.intro h3 {
+	font-family: 'Comfortaa', cursive,'Poiret One', cursive;
+	font-weight: 300;
+	margin-top: 33px;
+	margin-bottom: 33px;
+}
+.full-width-img {
+	width: 100%;
+}
+
 .wrapper {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
 .twocalls {
 	margin-top: 30px;
+
 }
 .twocalls button {
 	margin: 0 20px;
@@ -53,6 +79,7 @@ h2 {
 .contactInput {
 	margin-top: 30px;
 }
+
 .applicationCheckbox label {
 	color: #ccc;
 	font-size: 12px;
@@ -120,9 +147,42 @@ techspec {
 	margin-bottom:15px;
 	list-style: none;
 }
- h2 {
-	margin-bottom: 40px;
+.setspec {
+	background-color: white;
+	
 }
+.setspec li {
+	list-style: none;
+	border-bottom: 1px solid #d4d3d3 ;	
+	padding-bottom: 20px;	
+	margin-bottom: 20px;
+	font-size: 12px;
+	overflow: hidden;
+	
+}
+.setspec h2 {
+	border-bottom: 1px solid #d4d3d3;
+	padding-right: 20px;
+	padding-left:20px;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 25px;
+}
+.setspec li strong {
+	font-weight: normal;
+	width: 45%;
+	float: left;
+}
+.setspec li span {
+	float: right;
+	width: 40%;
+}
+.setspec-tab {
+	padding-right: 40px;
+}
+
+ 
 .graytext {
 	color: #666;
 	margin-top: 15px;
@@ -137,12 +197,7 @@ techspec {
 .textblock {
 	padding: 50px 30px 20px 30px;
 }
-.vertical-separator {
-	border-left: 1px solid rgba(204,204,204,0.5);
-	padding-left: 8px;
-    margin-left: 4px;
-	
-}
+
 .changepill {
 	border: 1px #ddd solid;
     font-size: 15px;
@@ -165,17 +220,6 @@ techspec {
 }
 ul .nav-pills li {
 	margin: auto;
-}
-
-a vertical-separator  {
-color: #666;
-}
-а
-.footer-text {
-	clear: both;
-    color: #666;
-    text-align: left;
-    margin: 0;
 }
 
 .quotation label {
@@ -204,11 +248,48 @@ color: #666;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-appearance: none;
-
 }
+.callback .input-box {
+	border: 1.0px #DDD solid;
+    display: block;
+    padding: 10px 12px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    width: 100%;
+	margin-bottom: 15px;
+	background-color: #f7f7f7;
+}
+.separatordiv {
+	border-top: 1px solid #DDD;
+    clear: both;
+    height: 0;
+    margin: 30px 0;
+    width: 100%;
+}
+
 footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.vertical-separator {
+	border-left: 1px solid rgba(204,204,204,0.5);
+	padding-left: 8px;
+    margin-left: 4px;
+	
+}
+
+.footer-text {
+	clear: both;
+    color: #666;
+    text-align: left;
+    margin: 0;
+}
+
+footer .footer-text a {
+	color: #666;		
 }
 
 @media (max-width: 490px) and (min-width: 0px){
