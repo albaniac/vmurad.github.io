@@ -155,6 +155,7 @@ techspec {
 }
 .setspec {
 	background-color: white;
+
 	
 }
 .setspec li {
@@ -305,7 +306,11 @@ footer .footer-text a {
 		width: 100%;	
 	}
 	.setspec {
-		margin:20px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	h2 {
+		font-size: 28px;
 	}
 	
 }
