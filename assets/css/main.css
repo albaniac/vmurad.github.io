@@ -73,12 +73,15 @@ textarea {
 .darker {
 	background-color: #F2F2F2;
 }
+
 .solarenergy h5 {
 	font-weight: bold;
 }
+
 .subtitle {
-	margin: 30px 0;
+	margin: 30px 0;	
 }
+
 .iconwrap img {
 	max-width:54px;
 }
@@ -188,6 +191,40 @@ techspec {
 .setspec-tab {
 	padding-right: 40px;
 }
+.comp-description .modal-content {
+	border-radius: 0;
+}
+.compspec li {
+	list-style: none;
+	border-bottom: 1px solid #d4d3d3 ;	
+	padding-bottom: 20px;	
+	margin-bottom: 20px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.compspec li strong {
+	font-weight: normal;
+	width: 30%;
+	float: left;
+}
+.compspec li span {
+	float: right;
+	width: 65%;
+	display: block;
+}
+.comp-description .modal-title {
+	font-size: 25px;
+	margin-left: 40px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.modal-header .close {
+	font-size: 50px;
+	font-weight: 100;
+	font-family: Comfortaa;
+	opacity: 1;
+}
+
 
  
 .graytext {
