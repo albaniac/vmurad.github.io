@@ -2,13 +2,15 @@ body {
   padding-top: 50px;
   font-family: 'Roboto', sans-serif;
 }
-h2 {
-	font-family: 'Comfortaa', cursive,'Poiret One', cursive;
+h2 {	
 	font-size: 34px;
 	font-weight: 300;
-}
-h2 {
 	margin-bottom: 40px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Comfortaa', cursive,'Poiret One', cursive;
+	
 }
 input[type='text'],
 input[type='number'],
@@ -156,8 +158,12 @@ techspec {
 	margin-bottom:15px;
 	list-style: none;
 }
+ul.book-mark  {
+	border-bottom: none;
+}
 .setspec {
 	background-color: white;
+	border-bottom: 1px solid #d4d3d3;
 
 	
 }
@@ -176,7 +182,7 @@ techspec {
 	padding-bottom: 20px;
 	padding-left: 20px;
 	margin-left: 20px;
-	margin-right: 40px;
+	margin-right: 25px;
 	font-size: 25px;
 }
 .setspec li strong {
@@ -188,8 +194,14 @@ techspec {
 	float: right;
 	width: 40%;
 }
-.setspec-tab {
+.setspec-tab1 {
 	padding-right: 40px;
+	padding-left: 40px;
+
+}
+.setspec-tab2 {
+	padding-right: 40px;
+	padding-left: 40px;
 }
 .comp-description .modal-content {
 	border-radius: 0;
@@ -201,6 +213,10 @@ techspec {
 	margin-bottom: 20px;
 	font-size: 12px;
 	overflow: hidden;
+}
+.compspec li:last-child {
+	border-bottom: none;
+	padding-bottom: 35px;
 }
 .compspec li strong {
 	font-weight: normal;
@@ -218,6 +234,11 @@ techspec {
 	margin-top: 50px;
 	margin-bottom: 15px;
 }
+.comp-description ul {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 .modal-header .close {
 	font-size: 50px;
 	font-weight: 100;
