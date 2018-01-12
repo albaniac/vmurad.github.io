@@ -179,8 +179,7 @@ ul.book-mark  {
 .setspec h2 {
 	border-bottom: 1px solid #d4d3d3;
 	padding-right: 20px;	
-	padding-bottom: 20px;
-	padding-left: 20px;
+	padding-bottom: 20px;	
 	margin-left: 20px;
 	margin-right: 25px;
 	font-size: 25px;
@@ -369,8 +368,23 @@ footer .footer-text a {
 	}
 	.setspec h2 {
 		font-size: 20px;
+		margin-left: 15px;
 	}
-
+	.setspec-tab1,
+	.setspec-tab2 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.comp-description ul {
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	.comp-description .modal-title {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
 	h2 {
 		font-size: 28px;
 	}
