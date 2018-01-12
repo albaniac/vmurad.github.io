@@ -96,17 +96,21 @@ textarea {
 	font-size: 12px;
 }
 
-.applicationCheckbox .active {
+.applicationCheckbox .active,
+ .applicationCheckbox .active.focus {
 	color: #39f;
 	border-color: #39f;
 	background-color:#ffffff;
 	box-shadow: none;
 	outline: none;
 }
-
- .applicationCheckbox .focus {
- 	outline: none;
- }
+.applicationCheckbox label:not(.active):hover,
+.applicationCheckbox label:not(.active).focus {	
+	color: #ccc;
+	border-color: #ccc;	
+	background-color: #ffffff;
+	outline: none;
+}
 
  .inputarea {
 }
