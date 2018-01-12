@@ -391,7 +391,16 @@ footer .footer-text a {
 }
 	h2 {
 		font-size: 28px;
-	}	
+	}
+	.book-mark {
+		margin-left: 9px;
+	}
+	.book-mark>li>a {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 12px;	
+	}
+
 }
 @media (max-width: 767px)	{
 	.tab-content {
