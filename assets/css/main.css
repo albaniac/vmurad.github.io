@@ -387,7 +387,7 @@ footer .footer-text a {
 }
 	h2 {
 		font-size: 28px;
-	}
+	}	
 }
 @media (max-width: 767px)	{
 	.tab-content {
@@ -397,5 +397,10 @@ footer .footer-text a {
 	.setspec-tab {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	.techspec .row > div:last-child {
+		text-align: center;
+		margin-top: 25px;
+
 	}
 }
