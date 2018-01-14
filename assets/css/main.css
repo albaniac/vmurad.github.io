@@ -339,7 +339,10 @@ ul .nav-pills li {
     margin: 30px 0;
     width: 100%;
 }
-
+.faq-theme {
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+}
 footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -348,9 +351,9 @@ footer {
 .vertical-separator {
 	border-left: 1px solid rgba(204,204,204,0.5);
 	padding-left: 8px;
-    margin-left: 4px;
-	
+    margin-left: 4px;	
 }
+
 
 .footer-text {
 	clear: both;
@@ -361,6 +364,24 @@ footer {
 
 footer .footer-text a {
 	color: #666;		
+}
+
+.faq-theme {
+	padding: 40px;
+}
+
+.faq-item-heading{
+text-align: center;
+font-weight: bold;
+
+}
+.faq-item-list {
+	padding: 0;
+}
+.faq-item-list li {
+list-style: none;
+padding: 20px 0	;
+border-bottom: 1px solid #ccc;
 }
 
 @media (max-width: 490px) and (min-width: 0px){
@@ -432,5 +453,24 @@ footer .footer-text a {
 	}
 	.simplicity-icons>div {
 		padding-bottom: 40px;
+	}
+}
+@media (min-width: 1200px){
+	.row.make-columns {
+    -moz-column-width: 38em;
+    -webkit-column-width: 38em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap:1em; 
+	}
+
+	.row.make-columns > div {
+	    display: inline-block;
+	    padding:  .5rem;
+	    width:  100%; 
+	}
+	.panel {
+	    display: inline-block;
+	    height: 100%;
+	    width:  100%; 
 	}
 }
