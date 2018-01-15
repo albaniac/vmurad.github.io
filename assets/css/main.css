@@ -463,7 +463,7 @@ border-bottom: 1px solid #ccc;
 		padding-bottom: 40px;
 	}
 }
-@media (min-width: 1200px){
+@media (min-width: 768px){
 	.row.make-columns {
     -moz-column-width: 38em;
     -webkit-column-width: 38em;
