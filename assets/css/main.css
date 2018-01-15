@@ -58,6 +58,7 @@ textarea {
 }
 .twocalls {
 	margin-top: 30px;
+	margin-bottom: 30px;
 
 }
 .twocalls button {
@@ -383,6 +384,13 @@ list-style: none;
 padding: 20px 0	;
 border-bottom: 1px solid #ccc;
 }
+.phonenumber {
+	font-size: 22px;
+	color:#3A3C49;
+	font-weight: bold;
+	line-height: 30px;
+}
+
 
 @media (max-width: 490px) and (min-width: 0px){
 	.twocalls .btn {		
