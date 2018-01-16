@@ -40,6 +40,16 @@ textarea {
   background-position: top;
   color: white;
 }
+.headerwrap-faq {
+  padding: 40px 15px;
+  text-align: center;
+  background: url("../img/solar_panel_faq_back.jpg");
+  width: 100%;
+  min-height: 550px;
+  background-size: cover;
+  background-position: top;
+  color: white;
+}
 
 .intro h3 {
 	font-family: 'Comfortaa', cursive,'Poiret One', cursive;
