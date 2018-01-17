@@ -112,10 +112,10 @@ textarea {
 }
 .twocalls {
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 
 }
-.twocalls button {
+.wocalls button {
 	margin: 0 20px;
 	min-width: 200px;
 	text-transform: uppercase;
@@ -125,10 +125,20 @@ textarea {
 .btn-order {
 	background: #39f;
 	color: #fff;
+	margin: 0 20px;
+	min-width: 200px;
+	text-transform: uppercase;
+	border-radius: 0;
+	font-weight: bold;
 }
 .btn-callback {
 	background: #333;
 	color: #fff;
+	margin: 0 20px;
+	min-width: 200px;
+	text-transform: uppercase;
+	border-radius: 0;
+	font-weight: bold;
 }
 .darker {
 	background-color: #F2F2F2;
@@ -444,13 +454,29 @@ border-bottom: 1px solid #ccc;
 	font-weight: bold;
 	line-height: 30px;
 }
-
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    font-size: 10px;
+    content: "\f078";    
+    float: right;
+}
+.accordion-toggle.collapsed:after {    
+    content: "\f054";    
+}
 
 @media (max-width: 490px) and (min-width: 0px){
+	.intro>div:first-child {
+		height: 400px;
+	}
 	.twocalls .btn {		
 		float: none;
 		margin-bottom: 10px;
 		width: 100%;	
+	}
+	.wrapper {
+		padding-top: 40px;
+    	padding-bottom: 40px;
+}
 	}
 	.setspec {
 		margin-right: 15px;
