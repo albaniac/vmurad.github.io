@@ -30,7 +30,7 @@
     <!-- Custom styles for this template -->
     
     <link href="assets/css/bootstrap-slider.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <ink href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Poiret+One|Roboto&amp;subset=cyrillic" rel="stylesheet">
 
@@ -38,7 +38,8 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <cript defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="https://use.fontawesome.com/8d0e608ac6.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -97,10 +98,9 @@
     <div class="wrapper darker">
       <div class="container">
         <h2>Рассчитать количество солнечных панелей</h2>
-        <div class="row">          
-          
-          <form class="form-inline"> 
-            <p>Если уже знаете требуемую мощность, то можете её указать в поле ниже или просто отметьте то, что вы собираетесь запитаться от солнечных панелей.</p>           
+        <form class="form-inline">
+          <div class="row">
+            <p class="text-center">Если уже знаете требуемую мощность, то можете её указать в поле ниже или просто отметьте то, что вы собираетесь запитаться от солнечных панелей.</p>           
             <div class="form-group col-md-2">
               <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
               <div class="input-group">
@@ -108,7 +108,7 @@
                 <input type="tel" class="form-control" id="exampleInputAmount" placeholder="3 КВт">
                 <div class="input-group-addon">кВт</div>
               </div>
-            </div> 
+            </div>             
             <div class="btn-grou col-md-10 applicationCheckbox" data-toggle="buttons">
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6 active">
                 <input type="checkbox" autocomplete="off" checked><i class="far fa-snowflake"></i> Холодильник
@@ -129,9 +129,37 @@
                 <input type="checkbox" autocomplete="off"><i class="far fa-question-circle"></i> Другое
               </label>
             </div>
-
+          </div> <!--End of .row -->
+          <div class="separatordiv"></div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="btn-group customradio" data-toggle="buttons">
+                    <p>Какой режим работы солнечных панелей вам нужен</p>
+                    <label class="btn">
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Круглый год</span>
+                    </label>                  
+                    <label class="btn">
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Только в весенне-осенний период</span> 
+                    </label>                 
+               </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="btn-group customradio" data-toggle="buttons">
+                    <p>Монтаж и установка солнечных панелей</p>
+                    <label class="btn">
+                      <input type="radio" name="optionsRadios2" id="optionsRadios11" value="option11" checked><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Я всё сделаю сам</span>
+                    </label>                  
+                    <label class="btn">
+                      <input type="radio" name="optionsRadios2" id="optionsRadios21" value="option21"><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Мне нужна будет консультация</span> 
+                    </label>                 
+                    <label class="btn">
+                      <input type="radio" name="optionsRadios2" id="optionsRadios31" value="option31"><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Мне нужны все работы</span> 
+                    </label>
+               </div>
+              </div>
+            </div> <!--End of .row -->
           </form>
-          </div>
+          
             
         
         <div class="row contactInput">
