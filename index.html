@@ -68,7 +68,8 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Главная</a></li>
             <li><a href="./dacha.html">Для дачи и сада</a></li>
-            <li><a href="#">Для дома</a></li>
+            <li><a href="./dly doma.html">Для дома</a></li>
+            <li><a href="./ohota i rybalka.html">Для рыбалки и охоты</a></li>
             <li><a href="#">ЖКХ</a></li>
             <li><a href="#">О нас</a></li>
             <li><a href="#contact">Контакты</a></li>
@@ -101,13 +102,13 @@
         <form class="form-inline">
           <div class="row">
             <p class="text-center">Если уже знаете требуемую мощность, то можете её указать в поле ниже или просто отметьте то, что вы собираетесь запитаться от солнечных панелей.</p>           
-            <div class="form-group col-md-2">
+            <div class="form-group col-md-3">
               <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
               <div class="input-group">
                 <div class="input-group-addon">Расход</div>
                 <input type="tel" class="form-control" id="exampleInputAmount" placeholder="3 КВт">
                 <div class="input-group-addon">кВт</div>
-              </div>
+              </div>  
             </div>             
             <div class="btn-grou col-md-10 applicationCheckbox" data-toggle="buttons">
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6 active">
@@ -148,10 +149,7 @@
                     <p>Монтаж и установка солнечных панелей</p>
                     <label class="btn">
                       <input type="radio" name="optionsRadios2" id="optionsRadios11" value="option11" checked><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Я всё сделаю сам</span>
-                    </label>                  
-                    <label class="btn">
-                      <input type="radio" name="optionsRadios2" id="optionsRadios21" value="option21"><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Мне нужна будет консультация</span> 
-                    </label>                 
+                    </label>        
                     <label class="btn">
                       <input type="radio" name="optionsRadios2" id="optionsRadios31" value="option31"><i class="fa fa-circle-o"></i><i class="fa fa-dot-circle-o fa"></i><span>Мне нужны все работы</span> 
                     </label>
@@ -161,31 +159,25 @@
           </form>
           
             
-        
-        <div class="row contactInput">
+        <div class="separatordiv"></div>
+        <div class="row contactInput quotation">
           <div class="col-sm-4 mb-3">
             <label for="validationDefault03">Ваше имя</label>
-            <input type="text" class="form-control" id="validationDefault03" placeholder="Имя" required>
-            <div class="invalid-feedback">
-              Please provide a valid city.
-            </div>
+            <input type="text" class="form-control input-box" id="validationDefault03" placeholder="Имя" required>            
           </div>
           <div class="col-sm-4 mb-3">
             <label for="validationDefault04">Ваш номер</label>
-            <input type="tel" class="form-control" id="validationDefault04" placeholder="+7 987 123 45 67" required>
-            <div class="invalid-feedback">
-              Please provide a valid state.
-            </div>
+            <input type="tel" class="form-control input-box" id="validationDefault04" pattern="(\+?\d[- .]*){7,13}" placeholder="+7 987 123 45 67" required>            
           </div>
           <div class="col-sm-4 mb-3">
             <label for="validationDefault05">Ваш город или индекс</label>
-            <input type="text" class="form-control" id="validationDefault05" placeholder="Казань или 420000" required>
-            <div class="invalid-feedback">
-              Please provide a valid zip.
-            </div>
+            <input type="text" class="form-control input-box" id="validationDefault05" placeholder="Казань или 420000" required>            
           </div>
-        </div>
+        </div> 
       </div>
+      <div class="centered text-center btn-order-wrapper">
+          <button type="button" class="btn btn-order">Рассчитать</button>
+        </div>       
     </div>
 
     <div class="wrapper solarenergy">
