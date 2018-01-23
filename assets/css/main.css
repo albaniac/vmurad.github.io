@@ -642,3 +642,10 @@ border-bottom: 1px solid #ccc;
 	    width:  100%; 
 	}
 }
+@media (min-width: 768px) and (max-width:991px){
+	.navbar .nav>li>a {
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+}
+
