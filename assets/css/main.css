@@ -290,19 +290,19 @@ textarea {
 div.customradio[data-toggle="buttons"] label:hover {
 color: #7AA3CC;
 }
-label input[type="radio"] ~ i.fa.fa-circle-o{
+label input[type="radio"] ~ i.far.fa-circle{
     color: #c8c8c8;    display: inline;
 }
-label input[type="radio"] ~ i.fa.fa-dot-circle-o{
+label input[type="radio"] ~ i.far.fa-dot-circle{
     display: none;
 }
-label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+label input[type="radio"]:checked ~ i.far.fa-circle{
     display: none;    
 }
-label input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+label input[type="radio"]:checked ~ i.far.fa-dot-circle{
     color: #39f;    display: inline;
 }
-label:hover input[type="radio"] ~ i.fa {
+label:hover input[type="radio"] ~ i.far {
 color: #39f;
 }
 div.customradio[data-toggle="buttons"] label {
@@ -548,6 +548,7 @@ footer {
 	padding-bottom: 20px;
 	color: #666;
 	border-top: 1px solid #ccc;
+	background-color: white;
 }
 
 footer ul {
