@@ -683,16 +683,15 @@ border-bottom: 1px solid #ccc;
 	font-weight: bold;
 	line-height: 30px;
 }
-{accordion-toggle:after}
 
-.faq-item-list a:after{
-    font-family: 'FontAwesome';
-    font-size: 10px;
-    content: "\f078";    
-    float: right;
+.faq-item-list a.accordion-toggle:after{ 
+    font-size: 10px;     
+    content:'\02795';  
+    float: right; 
 }
-.faq-item-list a.collapsed:after {
-    content: "\f054";    
+.faq-item-list a.accordion-toggle[aria-expanded="true"]:after{
+    content: "\2796";
+    float: right;
 }
 
 @media (max-width: 490px) and (min-width: 0px){
