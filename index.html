@@ -31,13 +31,15 @@
     
     <link href="assets/css/bootstrap-slider.css" rel="stylesheet">   
     <link href="assets/css/main.css" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Poiret+One|Roboto&amp;subset=cyrillic" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-    <script src="assets/js/jquery.min.js"></script>    
+    <script src="assets/js/jquery.min.js"></script>
+       
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -110,17 +112,25 @@
       <div class="container">
         <h2>Рассчитать количество солнечных панелей</h2>
         <form class="form-inline">
-          <div class="row">
-            <p class="text-center">Если уже знаете требуемую мощность, то можете её указать в поле ниже или просто отметьте то, что вы собираетесь запитаться от солнечных панелей.</p>           
-            <div class="form-group col-md-3">
-              <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
-              <div class="input-group">
-                <div class="input-group-addon">Расход</div>
-                <input type="tel" class="form-control" id="exampleInputAmount" placeholder="3 КВт">
-                <div class="input-group-addon">кВт</div>
-              </div>  
+          <div class="row">                       
+            <div class=" col-md-3 col-sm-4">              
+              <div class="slidecontainer">
+                <p class="form-subhead text-center">Прибл. энергопотребление</p>
+                <label class=""></label>
+                  <input type="range" value="900" min="100" max="7000" step="100" class="slider" id="myRange">                
+              </div>
+                <p class="graytext text-center">~   <span id="power-value"></span> Вт&middot;ч</p>
+                <script type="text/javascript">
+                  var slider = document.getElementById("myRange");
+                  var output = document.getElementById("power-value");
+                        output.innerHTML = slider.value;
+                  slider.oninput = function() {
+                      output.innerHTML = this.value;
+                    }
+                </script>
             </div>             
-            <div class="btn-grou col-md-10 applicationCheckbox" data-toggle="buttons">
+            <div class="btn-grou col-md-9 col-sm-8 applicationCheckbox" data-toggle="buttons">
+              <p class="form-subhead text-center">Какие приборы вы хотели бы запитать от солнечных батарей?</p>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6 active">
                 <input type="checkbox" autocomplete="off" checked><i class="far fa-snowflake"></i> Холодильник
               </label>
@@ -145,7 +155,7 @@
             <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="btn-group customradio" data-toggle="buttons">
-                    <p>Какой режим работы солнечных панелей вам нужен</p>
+                    <p class="form-subhead">Какой режим работы солнечных панелей вам нужен</p>
                     <label class="btn">
                       <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Круглый год</span>
                     </label>                  
@@ -156,7 +166,7 @@
               </div>
               <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="btn-group customradio" data-toggle="buttons">
-                    <p>Монтаж и установка солнечных панелей</p>
+                    <p class="form-subhead">Монтаж и установка солнечных панелей</p>
                     <label class="btn">
                       <input type="radio" name="optionsRadios2" id="optionsRadios11" value="option11" checked><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Я всё сделаю сам</span>
                     </label>        
