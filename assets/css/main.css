@@ -211,6 +211,10 @@ textarea {
 	border-radius: 0;
 	font-weight: bold;
 }
+.btn-order:hover {
+	color: white;
+	opacity: 0.85;
+}
 .btn-callback {
 	background: #333;
 	color: #fff;
@@ -219,6 +223,10 @@ textarea {
 	text-transform: uppercase;
 	border-radius: 0;
 	font-weight: bold;
+}
+.btn-callback:hover {
+	color:white;
+	opacity: 0.85;
 }
 .darker {
 	background-color: #F2F2F2;
