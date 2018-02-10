@@ -39,7 +39,7 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-       
+    <script src="assets/js/smoothscroll.js"></script>  
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -90,8 +90,8 @@
           <h2>Солнечные панели на День и Ночь</h2>
           <p class="graytext"> Мы предлагаем вам готовый комплет солнечных панелей. Вам не нужно самим расчитывать какую панель необходимо выбрать, какой аккуулятор лучше подобрать, какой контроллер заряда использовать. Всё это мы сделаем за вас. При  этом у нас только качественный и надёжные компоненты. Всё просто - скажите нам какие приборы вы ходите запитать - остальное сделаем мы. </p>
           <div class="btn-group twocalls">
-            <button type="button" class="btn btn-order">Сделать заказ</button>
-            <button type="button" class="btn btn-callback"><a href="./callback.html">Заказать звонок</a></button>
+            <a class="btn btn-order" href="#energy-form">Сделать заказ</a>
+            <a class="btn btn-callback" href="./callback.html">Заказать звонок</a>
           </div>        
       </div><!-- /.container -->
     </div>
@@ -111,9 +111,8 @@
     <div class="wrapper darker">
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./success-quotation.html';}"></iframe>
       <form action="https://docs.google.com/forms/d/e/1FAIpQLSeUE7y-QX4HopYsrGGg8vrJD7SstaOBAWYt3P2eKP2-luv6TQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" id="mG61Hd">
-        <div class="container">
-        <h2>Рассчитать количество солнечных панелей</h2>
-        
+        <div id="energy-form" class="container">
+        <h2 >Рассчитать количество солнечных панелей</h2>        
           <div class="row">                       
             <div class=" col-md-3 col-sm-4">              
               <div class="slidecontainer">
@@ -442,8 +441,7 @@
             <input type="submit" class="btn btn-order" value="Заказать расчёт стоимости">
             <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p> 
           </form>                
-        </div>
-        
+        </div>        
       </div>
     </div> 
 
