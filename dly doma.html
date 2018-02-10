@@ -523,88 +523,44 @@
 
     <div class="wrapper">
       <div class="container text-center quotation">
-        <h2>Цена комплекта солнечных батарей для дома: рассчёт стоимости</h2>
+        <h2>Производите энергию сами</h2>
         <p class="subtitle graytext">Солнечные панели производят возобновляемую чистую энергию без загрязнения окружающей среды. Наши панели соответствую индустриальным стандартам.</p>
         <div class="row">
-          <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-            <label for="firstname">Имя</label>
-            <input class="input-box" type="text" name="" id="firstname">
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./success-quotation.html';}"></iframe>
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSeri-IngmYpTvz5tnRCEyymc8IDY-Lz6DfFyNwyyws4GsAAWw/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" id="">
+          <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">                      
+            <label for="firstname">* Имя</label>
+            <input class="input-box" type="text" name="entry.578191916" id="firstname" placeholder="Имя" required>
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <label for="lastname">Фамилия</label>
-            <input class="input-box" type="text" name="" id="lastname">
+            <input class="input-box" type="text" name="entry.1465332116" id="lastname" placeholder="Фамилия">
           </div>
           <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-            <label for="phone">Телефон</label>
-            <input class="input-box" type="number" name="" id="phone">
+            <label for="phone">* Телефон </label>
+            <input class="input-box" type="text" name="entry.754568904" id="phone" placeholder="Для связи с вами" required="">
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <label for="email">Email</label>
-            <input class="input-box" type="email" name="" id="email">
+            <input class="input-box" type="email" name="" id="email" placeholder="Для отправки готового расчёта">
+            <input type="hidden" name="entry.1485436861" value="Дом">
           </div>
-                 
-        </div>
-        <button type="button" class="btn btn-order">Заказать расчет стоимости</button>
-        <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p>
+            <input type="submit" class="btn btn-order" value="Заказать расчёт стоимости">
+            <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p> 
+          </form>                
+        </div>        
       </div>
-    </div> 
+    </div>  
 
     <footer>
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img class="img-responsive" src="./assets/img/logo.png">
-            <p class="graytext hidden-sm hidden-xs">Мы производим готовые комплекты надёжных и эффективных солнечных электростанций.  </p>
-            <p class="graytext">&#9400 2018, Reenergo</p>
-          </div>
-          <div class="col-md-3 hidden-sm hidden-xs">
-            <h5 class="footer_heading">МЕНЮ</h5>
-            <ul>
-              <li><a href="">Для дома</a></li>
-              <li><a href="">Для дачи</a></li>
-              <li><a href="">Для рыбалки</a></li>              
-              <li><a href="">Вопросы</a></li>
-              <li><a href="">О нас</a></li>
-              <li><a href="">Блог</a></li>            
-            </ul>
-          </div>
-          <div class="col-md-3 col-xs-12">
-            <h5 class="footer_heading">МЫ НА СВЯЗИ</h5>
-            <p class="graytext hidden-xs hidden-sm">Если у вас остались какие-либо вопросы, то мы с радостью на них ответим. Вы можете задать их любым удобным вам способом.</p>
-            <br>
-            <p class="footer_phone col-md-6"><a href="tel:+78432453105">+7 843 245 31 05</a></p>
-            <p class="footer_email col-md-6 text-center"><a href="mailto:support@reenergo.ru">support@reenergo.ru</a></p>
-            <br>
-            <div class="separatordiv"></div>
-            <div class="social-media-group hidden-sm hidden-xs">
-              <a href="">
-                <span class="fa-stack fa-lg social-vk">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-              <a href="">
-                <span class="fa-stack fa-lg social-fb">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse" aria-hidden="true"></i>
-                </span>
-              </a>
-              <a href="">
-                <span class="fa-stack fa-lg social-inst">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2 col-xs-12 text-center">
-            <h5 class="footer_heading">ЗАДАЙТЕ ВОПРОС</h5>
-            <a class="btn btn-default btn-block btn-messenger btn-messenger-tlg" href="" role="button"><i class="fab fa-telegram fa-pull-left" aria-hidden="true"></i>Telegram</a>
-            <a class="btn btn-default btn-block btn-messenger btn-messenger-vk" href="https://vk.com/reenergo" role="button"><i class="fab fa-vk fa-pull-left" aria-hidden="true"></i>ВКонтакте</a>
-            <a class="btn btn-default btn-block btn-messenger btn-messenger-fb" href="" role="button"><i class="fab fa-facebook-messenger fa-pull-left"></i>Messenger</a>
-            <a class="btn btn-default btn-block btn-messenger btn-messenger-vb" href="" role="button"><i class="fab fa-viber fa-pull-left"></i>Viber</a>
-          </div>
-        </div>                
+        <p class="footer-text">
+          <a href="/" class="">Reenergo 2018</a>
+          <a href="/" class="vertical-separator">Контакты</a>
+          <a href="/" class="vertical-separator">Блог</a>
+          <a href="/" class="vertical-separator">Сотрудничество</a>
+          <a href="/" class="vertical-separator">ЖКХ</a>
+        </p>        
       </div>
     </footer>
     <!-- Bootstrap core JavaScript

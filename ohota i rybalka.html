@@ -522,31 +522,34 @@
 
     <div class="wrapper">
       <div class="container text-center quotation">
-        <h2>Цена комплекта солнечных батарей для дома: рассчёт стоимости</h2>
+        <h2>Производите энергию сами</h2>
         <p class="subtitle graytext">Солнечные панели производят возобновляемую чистую энергию без загрязнения окружающей среды. Наши панели соответствую индустриальным стандартам.</p>
         <div class="row">
-          <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-            <label for="firstname">Имя</label>
-            <input class="input-box" type="text" name="" id="firstname">
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./success-quotation.html';}"></iframe>
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSeri-IngmYpTvz5tnRCEyymc8IDY-Lz6DfFyNwyyws4GsAAWw/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" id="">
+          <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">                      
+            <label for="firstname">* Имя</label>
+            <input class="input-box" type="text" name="entry.578191916" id="firstname" placeholder="Имя" required>
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <label for="lastname">Фамилия</label>
-            <input class="input-box" type="text" name="" id="lastname">
+            <input class="input-box" type="text" name="entry.1465332116" id="lastname" placeholder="Фамилия">
           </div>
           <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-            <label for="phone">Телефон</label>
-            <input class="input-box" type="number" name="" id="phone">
+            <label for="phone">* Телефон </label>
+            <input class="input-box" type="text" name="entry.754568904" id="phone" placeholder="Для связи с вами" required="">
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <label for="email">Email</label>
-            <input class="input-box" type="email" name="" id="email">
+            <input class="input-box" type="email" name="" id="email" placeholder="Для отправки готового расчёта">
+            <input type="hidden" name="entry.1485436861" value="Охота и рыбалка">
           </div>
-                 
-        </div>
-        <button type="button" class="btn btn-order">Заказать расчет стоимости</button>
-        <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p>
+            <input type="submit" class="btn btn-order" value="Заказать расчёт стоимости">
+            <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p> 
+          </form>                
+        </div>        
       </div>
-    </div> 
+    </div>  
 
     <footer>
       <div class="container">

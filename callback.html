@@ -73,46 +73,50 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+    
     <div class="">
       <div class="container wrapper callback">      
         <div class="row">
           <div class="col-md-5 col-md-offset-4">
             <h2 class="text-center">Мы вам перезвоним и сами всё расскажем</h2>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./success-callback.html';}"></iframe>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdP4hxX5qECm5tj5fir5_ZHwR0o-aPTpDGjPA_PaLi77jhZrg/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" id="">
             <label for="firstname">ИМЯ</label>
-              <input class="input-box" type="text" name="" id="firstname" required>
+              <input class="input-box" type="text" name="entry.1884379948" id="firstname" required>
             <label for="phone">ТЕЛЕФОН</label>
-              <input class="input-box" type="tel" name="" id="phone" required>
+              <input class="input-box" type="tel" name="entry.332383467" id="phone" required>
             <label for="timetocall">ВРЕМЯ ДЛЯ ЗВОНКА</label>
-              <select class="input-box" type="text" name="" id="timetocall" required>
-                <option value="">-- Выберите время --</option>
-                <option value="">9.00</option>
-                <option value="">9.30</option>
-                <option value="">10.00</option>
-                <option value="">10.30</option>
-                <option value="">11.00</option>
-                <option value="">11.30</option>
-                <option value="">12.00</option>
-                <option value="">12.30</option>
-                <option value="">13.00</option>
-                <option value="">13.30</option>
-                <option value="">14.00</option>
-                <option value="">14.30</option>
-                <option value="">15.00</option>
-                <option value="">15.30</option>
-                <option value="">16.00</option>
-                <option value="">16.30</option>
-                <option value="">17.00</option>
-                <option value="">17.30</option>
-                <option value="">18.00</option>
-                <option value="">18.30</option>
-                <option value="">19.00</option>
-                <option value="">19.30</option>
-                <option value="">20.00</option>
-                <option value="">20.30</option>
+              <select class="input-box" type="text" name="entry.968463191" id="timetocall" required>
+                <option value="Выберите время" disabled selected>-- Выберите время --</option>
+                <option value="9.00">9.00</option>
+                <option value="9.30">9.30</option>
+                <option value="10.00">10.00</option>
+                <option value="10.30">10.30</option>
+                <option value="11.00">11.00</option>
+                <option value="11.30">11.30</option>
+                <option value="12.00">12.00</option>
+                <option value="12.30">12.30</option>
+                <option value="13.00">13.00</option>
+                <option value="13.30">13.30</option>
+                <option value="14.00">14.00</option>
+                <option value="14.30">14.30</option>
+                <option value="15.00">15.00</option>
+                <option value="15.30">15.30</option>
+                <option value="16.00">16.00</option>
+                <option value="16.30">16.30</option>
+                <option value="17.00">17.00</option>
+                <option value="17.30">17.30</option>
+                <option value="18.00">18.00</option>
+                <option value="18.30">18.30</option>
+                <option value="19.00">19.00</option>
+                <option value="19.30">19.30</option>
+                <option value="20.00">20.00</option>
+                <option value="20.30">20.30</option>
 
               </select>
               <div class="separatordiv"></div>
-              <button type="button" class="btn centered">Жду звонка</button>
+              <input type="submit" name="submit" value="Жду звонка" class="btn btn-order text-center">
+            </form>
           </div>
         </div>
       </div>

@@ -109,15 +109,17 @@
     </div>
 
     <div class="wrapper darker">
-      <div class="container">
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./success-quotation.html';}"></iframe>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSeUE7y-QX4HopYsrGGg8vrJD7SstaOBAWYt3P2eKP2-luv6TQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" id="mG61Hd">
+        <div class="container">
         <h2>Рассчитать количество солнечных панелей</h2>
-        <form class="form-inline">
+        
           <div class="row">                       
             <div class=" col-md-3 col-sm-4">              
               <div class="slidecontainer">
-                <p class="form-subhead text-center">Прибл. энергопотребление</p>
+                <p class="form-subhead text-center">Укажите ваше энергопотребление</p>
                 <label class=""></label>
-                  <input type="range" value="900" min="100" max="7000" step="100" class="slider" id="myRange">                
+                  <input type="range" value="900" min="100" max="7000" step="100" class="slider" id="myRange" name="entry.1748671345">                
               </div>
                 <p class="graytext text-center">~   <span id="power-value"></span> Вт&middot;ч</p>
                 <script type="text/javascript">
@@ -132,35 +134,35 @@
             <div class="btn-grou col-md-9 col-sm-8 applicationCheckbox" data-toggle="buttons">
               <p class="form-subhead text-center">Какие приборы вы хотели бы запитать от солнечных батарей?</p>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6 active">
-                <input type="checkbox" autocomplete="off" checked><i class="far fa-snowflake"></i> Холодильник
+                <input type="checkbox" autocomplete="off" checked name="entry.606774030" value="Холодильник"><i class="far fa-snowflake"></i> Холодильник
               </label>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off"><i class="far fa-lightbulb"></i> Освещение
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Освещение"><i class="far fa-lightbulb"></i> Освещение
               </label>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off"><i class="fas fa-tv"></i> Телевизор
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Телевизор"><i class="fas fa-tv"></i> Телевизор
               </label>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" default="off"><i class="fas fa-sliders-h"></i> Кондиционер
+                <input type="checkbox" default="off" name="entry.606774030" value="Кондиционер"><i class="fas fa-sliders-h"></i> Кондиционер
               </label>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off"><i class="fas fa-wifi"></i> Wi-Fi  роутер
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Wi-Fi роутер"><i class="fas fa-wifi"></i> Wi-Fi роутер
               </label>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off"><i class="far fa-question-circle"></i> Другое
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Другое"><i class="far fa-question-circle"></i> Другое
               </label>
             </div>
           </div> <!--End of .row -->
           <div class="separatordiv"></div>
-            <div class="row">
+          <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="btn-group customradio" data-toggle="buttons">
                     <p class="form-subhead">Какой режим работы солнечных панелей вам нужен</p>
                     <label class="btn">
-                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Круглый год</span>
+                      <input type="radio" name="entry.1342289882" id="optionsRadios1" value="Круглый год" checked><i class="far fa-circle" ></i><i class="far fa-dot-circle"></i><span>Круглый год</span>
                     </label>                  
                     <label class="btn">
-                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Только в весенне-осенний период</span> 
+                      <input type="radio" name="entry.1342289882" id="optionsRadios2" value="Весенне-осенний период"><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Только в весенне-осенний период</span> 
                     </label>                 
                </div>
               </div>
@@ -168,37 +170,36 @@
                 <div class="btn-group customradio" data-toggle="buttons">
                     <p class="form-subhead">Монтаж и установка солнечных панелей</p>
                     <label class="btn">
-                      <input type="radio" name="optionsRadios2" id="optionsRadios11" value="option11" checked><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Я всё сделаю сам</span>
+                      <input type="radio" name="entry.1662980523" id="optionsRadios11" value="Я всё сделаю сам" checked><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Я всё сделаю сам</span>
                     </label>        
                     <label class="btn">
-                      <input type="radio" name="optionsRadios2" id="optionsRadios31" value="option31"><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Мне нужны все работы</span> 
+                      <input type="radio" name="entry.1662980523" id="optionsRadios31" value="Мне нужны все работы"><i class="far fa-circle"></i><i class="far fa-dot-circle"></i><span>Мне нужны все работы</span> 
                     </label>
                </div>
               </div>
-            </div> <!--End of .row -->
-          </form>
-          
-            
-        <div class="separatordiv"></div>
-        <div class="row contactInput quotation">
+          </div> <!--End of .row -->
+          <div class="separatordiv"></div>
+          <div class="row contactInput quotation">
           <div class="col-sm-4 mb-3">
             <label for="validationDefault03">Ваше имя</label>
-            <input type="text" class="form-control input-box" id="validationDefault03" placeholder="Имя" required>            
+            <input type="text" class="form-control input-box" id="validationDefault03" placeholder="Имя" required name="entry.1125062522">            
           </div>
           <div class="col-sm-4 mb-3">
             <label for="validationDefault04">Ваш номер</label>
-            <input type="tel" class="form-control input-box" id="validationDefault04" pattern="(\+?\d[- .]*){7,13}" placeholder="+7 987 123 45 67" required>            
+            <input type="tel" class="form-control input-box" id="validationDefault04" pattern="(\+?\d[- .]*){7,13}" placeholder="+7 987 123 45 67" required name="entry.496579371">            
           </div>
           <div class="col-sm-4 mb-3">
             <label for="validationDefault05">Ваш город или индекс</label>
-            <input type="text" class="form-control input-box" id="validationDefault05" placeholder="Казань или 420000" required>            
+            <input type="text" class="form-control input-box" id="validationDefault05" placeholder="Казань или 420000" required name="entry.1064039360">            
           </div>
-        </div> 
-      </div>
-      <div class="centered text-center btn-order-wrapper">
-          <button type="button" class="btn btn-order">Рассчитать</button>
-        </div>       
+          </div> 
+        </div>
+        <div class="centered text-center btn-order-wrapper">
+          <input type="submit" name="submit" value="Рассчитать" class="btn btn-order">
+        </div>
+      </form>       
     </div>
+  
 
     <div class="wrapper solarenergy">
       <div class="container text-center">
@@ -291,11 +292,11 @@
                       </li>
                       <li>
                         <strong>Глубина разряда</strong>
-                        <span>100%</span>
+                        <span>50 - 60%</span>
                       </li>
                       <li>
-                        <strong>Мощность</strong>
-                        <span>7кВт пиковая / 5кВт в непрерывном режиме</span>
+                        <strong>Выработка энергии</strong>
+                        <span>Круглогодично</span>
                       </li>
                       <li>
                         <strong>Применение</strong>
@@ -311,16 +312,16 @@
                     <ul class="col-md-6 col-sm-6 col-xs-6">
                       <li>
                         <strong>Масштабируемость</strong>
-                        <span>До 10 панелей</span>
+                        <span>Предусмотрена</span>
                       </li>
                       <li>
                         <strong>Рабочие температуры</strong>
-                        <span>+5 - +50°C</span>
+                        <span>-55 - +65°C</span>
                       </li>
                       <li>
-                        <strong>Размеры одной панели</strong>
-                        <span>Длина*Ширина*Толщина:</span>
-                        <span>1000мм*750мм*4мм</span>
+                        <strong>Выходное напряжение</strong>
+                        <span>Переменное: 220В</span>
+                        <span>Постоянное: 12В/ 24В/ 48В</span>
                       </li>
                       <li>
                         <strong>Монтаж и подключение</strong>
@@ -420,26 +421,29 @@
         <h2>Производите энергию сами</h2>
         <p class="subtitle graytext">Солнечные панели производят возобновляемую чистую энергию без загрязнения окружающей среды. Наши панели соответствую индустриальным стандартам.</p>
         <div class="row">
-          <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-            <label for="firstname">Имя</label>
-            <input class="input-box" type="text" name="" id="firstname">
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSeri-IngmYpTvz5tnRCEyymc8IDY-Lz6DfFyNwyyws4GsAAWw/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" id="">
+          <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">                      
+            <label for="firstname">* Имя</label>
+            <input class="input-box" type="text" name="entry.578191916" id="firstname" placeholder="Имя" required>
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <label for="lastname">Фамилия</label>
-            <input class="input-box" type="text" name="" id="lastname">
+            <input class="input-box" type="text" name="entry.1465332116" id="lastname" placeholder="Фамилия">
           </div>
           <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
-            <label for="phone">Телефон</label>
-            <input class="input-box" type="text" name="" id="phone">
+            <label for="phone">* Телефон </label>
+            <input class="input-box" type="text" name="entry.754568904" id="phone" placeholder="Для связи с вами" required="">
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <label for="email">Email</label>
-            <input class="input-box" type="email" name="" id="email">
+            <input class="input-box" type="email" name="" id="email" placeholder="Для отправки готового расчёта">
+            <input type="hidden" name="entry.1485436861" value="Главная">
           </div>
-                 
+            <input type="submit" class="btn btn-order" value="Заказать расчёт стоимости">
+            <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p> 
+          </form>                
         </div>
-        <button type="button" class="btn btn-order">Заказать расчет стоимости</button>
-        <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p>
+        
       </div>
     </div> 
 
