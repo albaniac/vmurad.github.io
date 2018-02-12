@@ -700,7 +700,7 @@ font-weight: bold;
 .faq-item-list {
 	padding: 0;
 }
-.faq-item-list li {
+.faq-item-list>li {
 list-style: none;
 padding: 10px 0	;
 border-bottom: 1px solid #ccc;
