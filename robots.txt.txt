@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /success-callback.html
+Disallow: /success-quotation.html
+Sitemap: http://reenergo.ru/sitemap.xml
+
+User-agent: Yandex
+Disallow: /success-callback.html
+Disallow: /success-quotation.html
+Host: reenergo.ru/
+Sitemap: http://reenergo.ru/sitemap.xml
