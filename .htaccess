@@ -1,15 +1,7 @@
 RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.reenergo.ru$
+RewriteRule ^(.*) https://reenergo.ru/$1 [R=301,L]
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
-RewriteEngine on
-RewriteCond %{HTTP_HOST} !^www.reenergo.ru$
-RewriteRule ^(.*) https://reenergo.ru/$1 [R=301,L]
-RewriteEngine on
-RewriteCond %{REQUEST_URI} /$ [NC]
-RewriteRule ^(.*)(/)$ $1 [L,R=301]
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
-RewriteEngine on
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ https://reenergo.ru/ [R=301,L]
 ErrorDocument 404 /error404.html
-
