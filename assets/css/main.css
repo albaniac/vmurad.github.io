@@ -684,10 +684,10 @@ footer ul li a:hover {
 	opacity: 0.9;
 }
 .btn-messenger-wa {
-	background-color: #52cb60;
+	background-color: #00e676;
 }
 .btn-messenger-wa:hover {
-	background-color: #52cb60;
+	background-color: #00e676;
 	opacity: 0.9;
 }
 .social-fb i.fa-circle:hover {
@@ -774,7 +774,9 @@ border-bottom: 1px solid #ccc;
 .page404 h3 {
 	font-family: 'Poiret One', cursive;
 }
-
+.ctc ctc--light {
+	position: absolute;
+}
 
 @media (max-width: 490px) and (min-width: 0px){
 	.intro>div:first-child {

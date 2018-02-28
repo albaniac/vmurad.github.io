@@ -542,7 +542,14 @@
             <input class="input-box" type="email" name="entry.201370058" id="email" placeholder="Для отправки готового расчёта">
             <input type="hidden" name="entry.1485436861" value="Охота и рыбалка">
           </div>
-            <input type="submit" class="btn btn-order" value="Заказать расчёт стоимости">
+            <input type="submit" id="myButton" class="btn btn-order" data-loading-text="Отправка..." value="Заказать расчёт стоимости" autocomplete="off">
+            <script>
+              $('#myButton').on('click', function () {
+                var $btn = $(this).input('loading')
+                // business logic...
+                $btn.input('reset')
+              })
+            </script>
             <p>Услуга предоставляется <strong>БЕСПЛАТНО</strong></p> 
           </form>                
         </div>        
