@@ -774,10 +774,18 @@ border-bottom: 1px solid #ccc;
 .page404 h3 {
 	font-family: 'Poiret One', cursive;
 }
-.ctc {
-	position: absolute;
+.mir-logo {
+	height: 12px;
+	vertical-align: middle;
 }
-
+.visa-logo {
+	height: 36px;
+	vertical-align: middle;
+}
+.mastercard-logo {
+	height: 30px;
+	vertical-align: middle;
+}
 @media (max-width: 490px) and (min-width: 0px){
 	.intro>div:first-child {
 		height: 400px;
