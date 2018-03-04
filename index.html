@@ -40,7 +40,7 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-     
+    <script src="assets/js/power.js"></script>    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -130,29 +130,51 @@
                       output.innerHTML = this.value;
                     }
                 </script>
-            </div>             
-            <div class="btn-grou col-md-9 col-sm-8 applicationCheckbox" data-toggle="buttons">
-              <p class="form-subhead text-center">Какие приборы вы хотели бы запитать от солнечных батарей?</p>
-              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6 active">
-                <input type="checkbox" autocomplete="off" checked name="entry.606774030" value="Холодильник"><i class="far fa-snowflake"></i> Холодильник
-              </label>
-              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Освещение"><i class="far fa-lightbulb"></i> Освещение
-              </label>
-              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Телевизор"><i class="fas fa-tv"></i> Телевизор
-              </label>
-              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" default="off" name="entry.606774030" value="Кондиционер"><i class="fas fa-sliders-h"></i> Кондиционер
-              </label>
-              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Wi-Fi роутер"><i class="fas fa-wifi"></i> Wi-Fi роутер
-              </label>
-              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Другое"><i class="far fa-question-circle"></i> Другое
-              </label>
+                
             </div>
+
+            <div class="btn-grou col-md-9 col-sm-8 applicationCheckbox" data-toggle="buttons">
+              <p class="form-subhead text-center">Какие приборы вы хотели бы запитать от солнечных батарей?</p>    
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6 active">
+                <input type="checkbox" checked autocomplete="off"  name="entry.606774030" value="Холодильник" powervalue="100"><i class="far fa-snowflake"></i> Холодильник
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Освещение" powervalue="100"><i class="far fa-lightbulb"></i> Освещение
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Телевизор" powervalue="100"><i class="fas fa-tv"></i> Телевизор
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" default="off" name="entry.606774030" value="Кондиционер" powervalue="100"><i class="fas fa-sliders-h"></i> Кондиционер
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Радио/Муз. центр" powervalue="100"><i class="fas fa-music"></i> Радио/Муз. центр
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Насос для полива" powervalue="100"><i class="fas fa-tint"></i> Насос для полива
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Ноутбук/ПК" powervalue="100"><i class="fas fa-laptop"></i> Ноутбук/ПК
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="СВЧ печь" powervalue="100"><i class="fas fa-utensils"></i> СВЧ печь
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Электрочайник" powervalue="100"><i class="fas fa-coffee"></i> Электрочаник
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" default="off" name="entry.606774030" value="Стир. машина" powervalue="100"><i class="fas fa-circle-notch fa-spin"></i> Стир. машина
+              </label>   
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Электроинструмент" powervalue="100"><i class="fas fa-plug"></i> Электроинструмент
+              </label>
+              <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
+                <input type="checkbox" autocomplete="off" name="entry.606774030" value="Газовый котёл" powervalue="100"><i class="fab fa-gripfire"></i> Газовый котёл
+              </label>
+            </div>            
           </div> <!--End of .row -->
+          <p id="" class="graytext text-center">На основе введённых вами данных, ваше энергопотребление составляет: <span id="totalpower">100</span> Вт&middot;ч/день</p>
+          <a type="button" class="btn btn-link" title="Как получена эта цифра"href="">Как получена эта цифра</a>
           <div class="separatordiv"></div>
           <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-6">
@@ -510,7 +532,8 @@
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>*-->
     <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/phone.min.js"></script>      
+    <script src="assets/js/phone.min.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
