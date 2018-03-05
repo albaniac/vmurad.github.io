@@ -486,6 +486,9 @@ ul.book-mark  {
 	margin-top: 50px;
 	margin-bottom: 15px;
 }
+.power-description .modal-title {
+	margin-left: 0;
+}
 .comp-description ul {
 	padding-left: 40px;
 	padding-right: 40px;
@@ -825,6 +828,10 @@ border-bottom: 1px solid #ccc;
 	.setspec-tab2 {
 		padding-left: 25px;
 		padding-right: 25px;
+	}
+	.power-description .modal-content {
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 	.comp-description ul {
     padding-left: 20px;
