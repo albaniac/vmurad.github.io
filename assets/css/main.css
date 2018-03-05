@@ -829,6 +829,11 @@ border-bottom: 1px solid #ccc;
 		padding-left: 25px;
 		padding-right: 25px;
 	}
+	.table-scrollable {
+		width: 100%;
+		overflow-y: hidden;
+    	-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
 	.power-description .modal-content {
 		padding-right: 10px;
 		padding-left: 10px;
