@@ -353,6 +353,11 @@ div.customradio[data-toggle="buttons"] label span {
 .form-subhead {
 	margin: 20px 0;
 }
+#totalpower {
+	font-size: 26px;
+	font-weight: bold;
+	color: black;
+}
 .slidecontainer {
     width: 100%; /* Width of the outside container */
 }
