@@ -65,6 +65,11 @@ textarea {
   bottom: 6px;
 }
 
+.brandlogo img{
+	width: 115px;
+	padding-top: 17px;
+
+}
 .headerwrap {
   padding: 40px 15px;
   text-align: center;
@@ -921,6 +926,9 @@ border-bottom: 1px solid #ccc;
 	.navbar .nav>li>a {
 		padding-left: 9px;
 		padding-right: 9px;
+	}
+	.brandlogo {
+		margin-left: -20px;
 	}
 }
 @media (max-width:991.99px) {
