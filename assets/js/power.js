@@ -6,5 +6,6 @@ $(document).ready(function(){
             total += parseInt($(this).attr('powervalue'));            
         });
      	$('#totalpower').html(total);
+     	$('input[id="totalpowervalue"]').attr('value', total);
      });
 });
