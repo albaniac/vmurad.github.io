@@ -125,7 +125,7 @@
           <h2>Ваша собственная солнечная электростанция у вас на даче</h2>
           <p class="graytext"> Мы предлагаем вам готовый комплет солнечных панелей. Вам не нужно самим расчитывать какую панель необходимо выбрать, какой аккуулятор лучше подобрать, какой контроллер заряда использовать. Всё это мы сделаем за вас. При  этом у нас только качественный и надёжные компоненты. Всё просто - скажите нам какие приборы вы ходите запитать - остальное сделаем мы. </p>
           <div class="btn-group twocalls">
-            <button type="button" class="btn btn-order" >Сделать заказ</button>
+            <a class="btn btn-order" href="#bottomform">Сделать заказ</a>
             <a type="button" class="btn btn-callback" href="./callback.html">Заказать звонок</a>
           </div>        
       </div><!-- /.container -->
@@ -505,13 +505,7 @@
         <h2>Просто и компактно</h2>
         <p class="subtitle graytext">Вы получаете полностью автономную систему, которую не нужно обслуживать</p>
         <img class="img-responsive centered" src="assets/img/solar power station.png">
-        <ol class="components-list">
-          <li>Солнечная панель</li>
-          <li>Энергомодуль, состоящий из контроллера и инвертора</li>
-          <li>Аккумуляторные батареи</li>
-          <li>Электроснабжение дачного дома</li>
-          <li>Магистральное энергоснабжение</li>
-        </ol>
+
         <div class="row simplicity-icons">
           <div class="col-md-4 col-sm-12">
             <div class="iconwrap">
@@ -539,12 +533,12 @@
     </div>
           
     <div class="wrapper">
-      <div class="container text-center quotation">
+      <div class="container text-center quotation" id="bottomform">
         <h2>Производите энергию сами</h2>
         <p class="subtitle graytext">Солнечные панели производят возобновляемую чистую энергию без загрязнения окружающей среды. Наши панели соответствую индустриальным стандартам.</p>
         <div class="row">
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./success-quotation.html';}"></iframe>
-          <form action="https://docs.google.com/forms/d/e/1FAIpQLSeri-IngmYpTvz5tnRCEyymc8IDY-Lz6DfFyNwyyws4GsAAWw/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" id="">
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSeri-IngmYpTvz5tnRCEyymc8IDY-Lz6DfFyNwyyws4GsAAWw/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true;" >
           <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">                      
             <label for="firstname">* Имя</label>
             <input class="input-box" type="text" name="entry.578191916" id="firstname" placeholder="Имя" required>
@@ -635,7 +629,6 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/phone.min.js"></script>
     <script src="assets/js/tlgchat.js"></script>  
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
   </body>
 </html>
