@@ -251,7 +251,10 @@ brandlogo img{
 .solarenergy h5 {
 	font-weight: bold;
 }
-
+.maincolored,
+.maincolored:hover {
+	color: #39f;
+}
 .subtitle {
 	margin: 30px 0;	
 }
@@ -823,6 +826,9 @@ border-bottom: 1px solid #ccc;
 .mastercard-logo {
 	height: 30px;
 	vertical-align: middle;
+}
+.components-list {
+
 }
 @media (max-width: 490px) and (min-width: 0px){
 	.intro>div:first-child {
