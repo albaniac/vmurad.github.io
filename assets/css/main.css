@@ -128,6 +128,26 @@ brandlogo img{
   background-position: center;
   color: white;
 }
+.headerwrap-builder {
+  padding: 40px 15px;
+  text-align: center;
+  background: url("../img/solar-panel-builder.jpeg");
+  width: 100%;
+  height: 450px;;
+  background-size: cover;
+  background-position: 0% 74%;
+  color: white;
+}
+.headerwrap-electropastuh {
+  padding: 40px 15px;
+  text-align: center;
+  background: url("../img/solar-panel-electropastuh.jpeg");
+  width: 100%;
+  height: 450px;;
+  background-size: cover;
+  background-position:  0% 26%;
+  color: white;
+}
 
 .intro h3 {
 	font-family: 'Comfortaa', cursive,'Poiret One', cursive;
@@ -455,12 +475,24 @@ ul.book-mark  {
 	
 }
 .setspec h2 {
-	border-bottom: 1px solid #d4d3d3;
+	/*border-bottom: 1px solid #d4d3d3;
+	padding-right: 20px;	
+	padding-bottom: 20px;	
+	margin-left: 20px;
+	margin-right: 25px;*/
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.setspec h2 span {
+	font-weight: bold;
+}
+.tabpanel-header {
+	border-bottom: 1px solid #9d9d9d;
 	padding-right: 20px;	
 	padding-bottom: 20px;	
 	margin-left: 20px;
 	margin-right: 25px;
-	font-size: 22px;
+	margin-bottom: 20px;
 }
 .setspec li strong {
 	font-weight: normal;
@@ -827,8 +859,27 @@ border-bottom: 1px solid #ccc;
 	height: 30px;
 	vertical-align: middle;
 }
-.components-list {
-
+.solar-component {
+	list-style: none;
+	margin-top: 10px;	
+}
+.solar-component li {
+	display: inline-block;
+	margin-right: 20px;
+}
+span.component-num {
+ 	background: #7f7f7f;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    height: 27px;
+    width: 27px;
+    margin-right: 10px;
+    line-height: 27px;
+    position: relative;
+    text-align: center;
+   
 }
 @media (max-width: 490px) and (min-width: 0px){
 	.intro>div:first-child {
@@ -845,8 +896,8 @@ border-bottom: 1px solid #ccc;
 	}
 	
 	.setspec {
-		margin-right: 15px;
-		margin-left: 15px;
+		margin-right: -10px;
+		margin-left: -10px;
 	}
 	.setspec h2 {
 		font-size: 20px;
@@ -891,8 +942,8 @@ border-bottom: 1px solid #ccc;
 }
 @media (max-width: 767px)	{
 	.tab-content {
-		margin-left: 10px; 
-    	margin-right: 10px;
+		/*margin-left: 10px; 
+    	margin-right: 10px;*/
 	}
 	.setspec-tab {
 		padding-left: 20px;
