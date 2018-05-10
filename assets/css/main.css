@@ -459,6 +459,8 @@ techspec {
 ul.book-mark  {
 	border-bottom: none;
 }
+.nav-tabs { min-width: 400px; }
+.nav-tabs-responsive { overflow: auto; }
 .setspec {
 	background-color: white;
 	border-bottom: 1px solid #d4d3d3;
