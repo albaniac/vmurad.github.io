@@ -913,6 +913,9 @@ span.component-num {
 		font-size: 20px;
 		/*margin-left: 15px;*/
 	}
+	.setspec .graytext {
+		font-size: 13px;
+	}
 	.tabpanel-header {
 		margin-right: 10px;
 		margin-left: 10px;
