@@ -913,6 +913,10 @@ span.component-num {
 		font-size: 20px;
 		/*margin-left: 15px;*/
 	}
+	.tabpanel-header {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
 	.setspec-tab1,
 	.setspec-tab2 {
 		padding-left: 25px;
