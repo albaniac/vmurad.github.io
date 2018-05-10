@@ -467,7 +467,7 @@ techspec {
 }
 .nav-tabs-responsive { 
 	overflow: auto;
-	max-height: 40px; 
+	max-height: 42px; 
 }
 .setspec {
 	background-color: white;
