@@ -456,11 +456,19 @@ techspec {
 	margin-bottom:15px;
 	list-style: none;
 }
-ul.book-mark  {
+/*ul.book-mark  {
 	border-bottom: none;
+}*/
+.book-mark>li>a {
+	background-color: #eaeaea;
 }
-.nav-tabs { min-width: 600px; }
-.nav-tabs-responsive { overflow: auto; }
+.nav-tabs { 
+	min-width: 730px;	 
+}
+.nav-tabs-responsive { 
+	overflow: auto;
+	max-height: 40px; 
+}
 .setspec {
 	background-color: white;
 	border-bottom: 1px solid #d4d3d3;
@@ -903,7 +911,7 @@ span.component-num {
 	}
 	.setspec h2 {
 		font-size: 20px;
-		margin-left: 15px;
+		/*margin-left: 15px;*/
 	}
 	.setspec-tab1,
 	.setspec-tab2 {
