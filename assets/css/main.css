@@ -133,7 +133,7 @@ brandlogo img{
   text-align: center;
   background: url("../img/solar-panel-builder.jpeg");
   width: 100%;
-  height: 450px;;
+  height: 450px;
   background-size: cover;
   background-position: 0% 74%;
   color: white;
@@ -146,6 +146,16 @@ brandlogo img{
   height: 450px;;
   background-size: cover;
   background-position:  0% 26%;
+  color: white;
+}
+.headerwrap-ups-gas {
+  padding: 40px 15px;
+  text-align: center;
+  background: url("../img/ups-for-gas-boiler.jpg");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: top;
   color: white;
 }
 
