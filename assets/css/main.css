@@ -158,7 +158,10 @@ brandlogo img{
   background-position: top;
   color: white;
 }
-
+.spec-price {
+	border: 1px solid gray;
+	color: blue;
+}
 .intro h3 {
 	font-family: 'Comfortaa', cursive,'Poiret One', cursive;
 	font-size: 19px;
