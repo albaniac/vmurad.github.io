@@ -161,7 +161,7 @@ brandlogo img{
 .price-in-spec {
 	display: inline;
 	background-color: #39f;
-	font-size: 100%;
+	font-size: 80%;
 	padding: .3em .4em .3em;
 	border-radius: 0;
 	text-align: center;
