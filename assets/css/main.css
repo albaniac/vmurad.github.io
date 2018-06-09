@@ -158,8 +158,9 @@ brandlogo img{
   background-position: top;
   color: white;
 }
-.price-in-spec {
+.setspec .price-in-spec {
 	display: inline;
+	width: 30%;
 	background-color: #39f;
 	font-size: 80%;
 	padding: .3em .4em .3em;
