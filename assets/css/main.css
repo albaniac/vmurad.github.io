@@ -169,6 +169,7 @@ brandlogo img{
 	color: white;
 	font-weight: 700;
 	white-space: nowrap;
+	vertical-align: baseline;
 }
 
 .intro h3 {
