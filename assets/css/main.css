@@ -159,8 +159,7 @@ brandlogo img{
   color: white;
 }
 .setspec .price-in-spec {
-	display: inline;
-	margin-right: 5px;
+	display: inline;	
 	width: 45%;
 	max-width: 50%;
 	background-color: #39f;
