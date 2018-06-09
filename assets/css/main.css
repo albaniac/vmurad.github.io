@@ -160,8 +160,8 @@ brandlogo img{
 }
 .setspec .price-in-spec {
 	display: inline;
-	margin-right: 10px;
-	width: 40%;
+	margin-right: 5px;
+	width: 45%;
 	max-width: 50%;
 	background-color: #39f;
 	font-size: 80%;
