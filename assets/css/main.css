@@ -1038,14 +1038,18 @@ span.component-num {
 }
 @media (min-width: 768px) and (max-width:991px){
 	.navbar .nav>li>a {
-		padding-left: 9px;
-		padding-right: 9px;
+		padding-left: 7px;
+		padding-right: 7px;
+		font-size: 12px;
 	}
 	.brandlogo {
 		margin-left: -20px;
 	}
 }
 @media (max-width:991.99px) {
+	nav.container {
+		width: 100%;
+	}
 	footer {
 		text-align: center;
 	}
