@@ -1047,7 +1047,7 @@ span.component-num {
 	}
 }
 @media (max-width:991.99px) {
-	nav.container {
+	nav .container {
 		width: 100%;
 	}
 	footer {
