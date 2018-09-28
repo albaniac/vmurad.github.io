@@ -1046,6 +1046,7 @@ span.component-num {
 	}
 	.brandlogo {
 		/*margin-left: -20px;*/
+		width: 80px;
 	}
 }
 @media (max-width:991.99px) {	
