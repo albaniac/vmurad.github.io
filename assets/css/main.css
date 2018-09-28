@@ -982,6 +982,12 @@ span.component-num {
 	}
 	
 }
+@media (max-width: 1999px){
+	.navbar .container {
+		width:100%;
+	}
+}
+
 @media (max-width: 767px)	{
 	.tab-content {
 		/*margin-left: 10px; 
@@ -1043,13 +1049,10 @@ span.component-num {
 		font-size: 12px;
 	}
 	.brandlogo {
-		margin-left: -20px;
+		/*margin-left: -20px;*/
 	}
 }
-@media (max-width:991.99px) {
-	.navbar .container {
-		width: 100%;
-	}
+@media (max-width:991.99px) {	
 	footer {
 		text-align: center;
 	}
