@@ -982,11 +982,7 @@ span.component-num {
 	}
 	
 }
-@media (max-width: 1999px){
-	.navbar .container {
-		width:100%;
-	}
-}
+
 
 @media (max-width: 767px)	{
 	.tab-content {
@@ -1102,4 +1098,9 @@ span.component-num {
     .dropdown a.dropdown-toggle{
         display:none;
     }
+}
+@media (max-width: 1999px){
+	.navbar .container {
+		width:100%;
+	}
 }
