@@ -29,15 +29,7 @@ $(document).ready(function(){
 				price:51000
 			}	
 		];
-
-		if ($("#refridge").prop('checked')) {
-			$('#test_checkbox').html('Круто');
-		}
-		else {
-			$('#test_checkbox').html('Тоже Круто');
-		}
-
-		
+				
 		if (total <= 600 && $("#refridge").prop('checked')) {
 			$('#ibp-name_input').val(complect[2].name);
 			$('#ibp-price_input').val(complect[2].price);
