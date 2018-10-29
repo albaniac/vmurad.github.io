@@ -209,7 +209,8 @@
                   slider.oninput = function() {
                       output.innerHTML = this.value;
                     }
-                </script>                
+                </script>
+                <p id='test_checkbox'>Пусто</p>                
             </div>
 
             <div class="btn-grou col-md-8 col-sm-12 applicationCheckbox" data-toggle="buttons">
@@ -224,7 +225,7 @@
                 <input type="checkbox" autocomplete="off" name="entry.606774030" value="Дежурное освещение" powervalue="15"><i class="far fa-lightbulb"></i> Дeжурн. освещение
               </label>    
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
-                <input type="checkbox" autocomplete="off"  name="entry.606774030" value="Холодильник" powervalue="40"><i class="far fa-snowflake"></i> Холодильник
+                <input type="checkbox" autocomplete="off" id="refridge"  name="entry.606774030" value="Холодильник" powervalue="40"><i class="far fa-snowflake"></i> Холодильник
               </label>
               <label class="btn btn-default col-md-2 col-sm-4 col-xs-6">
                 <input type="checkbox" autocomplete="off" name="entry.606774030" value="Насос для полива" powervalue="100"><i class="fas fa-video" aria-hidden="true"></i> Видеонабл.
@@ -394,7 +395,7 @@
               <div class="ibp-summary">
                 <h3 class="text-center">Результаты расчёта</h3>
                 <p class="invoice-row">
-                  <strong id="ibp-name">Комплект REENERGO 300</strong>
+                  <strong id="ibp-name">Источник REENERGO 300</strong>
                   <span id="ibp-price">7500 р.</span>
                 </p>
                 <p class="invoice-row">

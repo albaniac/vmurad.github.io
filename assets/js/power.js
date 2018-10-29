@@ -29,7 +29,20 @@ $(document).ready(function(){
 				price:51000
 			}	
 		];
-		if (total <= 300) {
+
+		if ($("#refridge").prop('checked')) {
+			$('#test_checkbox').html('Круто');
+		}
+		else {
+			$('#test_checkbox').html('Тоже Круто');
+		}
+
+		
+		if (total <= 600 && $("#refridge").prop('checked')) {
+			$('#ibp-name_input').val(complect[2].name);
+			$('#ibp-price_input').val(complect[2].price);
+		}
+		else if (total <= 300) {
 			$('#ibp-name_input').val(complect[0].name);
 			$('#ibp-price_input').val(complect[0].price);
 
@@ -41,7 +54,7 @@ $(document).ready(function(){
 		else if (total <= 1000) {
 			$('#ibp-name_input').val(complect[2].name);
 			$('#ibp-price_input').val(complect[2].price);	
-		}
+		}		
 		else if (total <= 3000) {
 			$('#ibp-name_input').val(complect[3].name);
 			$('#ibp-price_input').val(complect[3].price);	
