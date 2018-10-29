@@ -125,8 +125,6 @@ $(document).ready(function(){
 		$('#ibp-name').html("Источник " + finalIbpname);
 		$('#battery-price').html(finalBatteryprice + " р.");
 		$('#battery-type').html(finalBatterytype);
-
-
      });
 
 });
