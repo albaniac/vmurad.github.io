@@ -29,20 +29,20 @@ $(document).ready(function(){
 				price:51000
 			}	
 		];
-		if (total < 300) {
+		if (total <= 300) {
 			$('#ibp-name_input').val(complect[0].name);
 			$('#ibp-price_input').val(complect[0].price);
 
 		}
-		else if (total < 600) {
+		else if (total <= 600) {
 			$('#ibp-name_input').val(complect[1].name);
 			$('#ibp-price_input').val(complect[1].price);	
 		}
-		else if (total < 1000) {
+		else if (total <= 1000) {
 			$('#ibp-name_input').val(complect[2].name);
 			$('#ibp-price_input').val(complect[2].price);	
 		}
-		else if (total < 3000) {
+		else if (total <= 3000) {
 			$('#ibp-name_input').val(complect[3].name);
 			$('#ibp-price_input').val(complect[3].price);	
 		}
@@ -80,23 +80,23 @@ $(document).ready(function(){
 		var reqHours = $('#myRange').val(); 
 		var powerCapacity = total*reqHours;		
 		if (powerCapacity <= 240) {
-			$('#battery-type_input').val("Аккумулятор " + battery[0].capacity + "А*ч");
+			$('#battery-type_input').val("Аккумулятор " + battery[0].capacity + " А*ч");
 			$('#battery-price_input').val(battery[0].price);
 		}
 		else if (powerCapacity <= 400) {
-			$('#battery-type_input').val("Аккумулятор " + battery[1].capacity + "А*ч");
-			$('#battery-price_input').html(battery[1].price);
+			$('#battery-type_input').val("Аккумулятор " + battery[1].capacity + " А*ч");
+			$('#battery-price_input').val(battery[1].price);
 		}	
 		else if (powerCapacity <= 550) {
-			$('#battery-type_input').val("Аккумулятор " + battery[2].capacity + "А*ч");
+			$('#battery-type_input').val("Аккумулятор " + battery[2].capacity + " А*ч");
 			$('#battery-price_input').val(battery[2].price);
 		}
 		else if (powerCapacity <= 900) {
-			$('#battery-type_input').val("Аккумулятор " + battery[3].capacity + "А*ч");
+			$('#battery-type_input').val("Аккумулятор " + battery[3].capacity + " А*ч");
 			$('#battery-price_input').val(battery[3].price);
 		}
 		else if (powerCapacity <= 1700) {
-			$('#battery-type_input').val("Аккумулятор " + battery[4].capacity + "А*ч");
+			$('#battery-type_input').val("Аккумулятор " + battery[4].capacity + " А*ч");
 			$('#battery-price_input').val(battery[4].price);
 		}
 		else {
