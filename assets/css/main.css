@@ -293,6 +293,9 @@ brandlogo img{
 .btn-order-wrapper {
 	margin-top: 25px;
 }
+.btn-order-cta {
+	margin-top: 8%;
+}
 .solarenergy h5 {
 	font-weight: bold;
 }
@@ -480,6 +483,31 @@ techspec {
 	line-height: 1.4;
 	margin-bottom:15px;
 	list-style: none;
+}
+.ibp-summary {
+	border:1px solid #ccc;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 5px;
+}
+.invoice-row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	}
+.invoice-row strong {
+	float: left;
+	width: 70%;
+}
+.invoice-row span {
+	float: right;
+	width: 30%
+}
+.total_ipb_price {
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-top: 0;
+
 }
 /*ul.book-mark  {
 	border-bottom: none;
