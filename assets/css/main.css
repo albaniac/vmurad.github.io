@@ -491,6 +491,7 @@ techspec {
 	border-radius: 5px;
 }
 
+
 .invoice-row {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -702,6 +703,10 @@ ul .nav-pills li {
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-appearance: none;
+}
+.quotation div.calc_checkout input.input-box {
+	border: 1px #CCC solid;
+	background-color: #f2f2f2;
 }
 .callback .input-box {
 	border: 1.0px #DDD solid;
@@ -1009,7 +1014,7 @@ span.component-num {
 		padding-right: 5px;
 		font-size: 12px;	
 	}
-	
+		
 }
 
 
@@ -1098,6 +1103,15 @@ span.component-num {
 	    margin-left: auto;
 	    margin-right: auto;
 	}
+	.ibp-summary {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 20px;
+	}
+	.invoice-row span {
+		width: 28%;
+	}
+
 	
 }
 @media only screen and (max-width:767px){
